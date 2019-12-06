@@ -4,8 +4,9 @@ Banking Application built on NodeJS with Express to expose RESTful API to the Ba
 
 ## API URL - https://banksys-server-api.herokuapp.com/
 
-# API List 
-===============
+API List
+========
+
 
 | API Calls                               | Endpoint              | Method   |
 | --------------------------------------- |:---------------------:| --------:|
