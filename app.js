@@ -12,6 +12,7 @@ const morgan = require('morgan');
 
 const authRoutes = require('./routes/auth');
 const accountRoutes = require('./routes/customer');
+const transactionRoutes = require('./routes/transaction');
 
 dotenv.config();
 
@@ -36,6 +37,7 @@ app.use(morgan('combined', { stream: accessLogStream }));
 
 app.use('/auth', authRoutes);
 app.use('/customer', accountRoutes);
+app.use('/transaction', transactionRoutes);
 
 app.use((error, req, res, next) => {
 	console.log(error);
