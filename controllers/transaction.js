@@ -1,6 +1,5 @@
 const Transaction = require('../models/transaction');
 const Account = require('../models/account');
-const User = require('../models/user');
 
 const TRANSFER_TYPE = 0;
 
